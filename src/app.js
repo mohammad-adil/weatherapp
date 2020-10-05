@@ -21,19 +21,19 @@ app.get('', (req, res) => {
 
     res.render('index', {
         title: 'weather App',
-        name: 'Shah Aadil'
+        name: 'Weather App'
     })
 })
 
 app.get('/about', (req, res) => {
 
-    res.render('about', { title: 'about', name: 'shah aadil' })
+    res.render('about', { title: 'about', name: 'Weather App' })
 })
 
 
 app.get('/help', (req, res) => {
 
-    res.render("help", { title: 'help', name: 'shah aadil' })
+    res.render("help", { title: 'help', name: 'Weather App' })
 
 })
 
